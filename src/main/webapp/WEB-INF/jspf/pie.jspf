@@ -1,0 +1,8 @@
+<%--
+  Fragmento reutilizable: pie de página.
+  Se incluye con la ACCIÓN jsp:include:  <jsp:include page="/WEB-INF/jspf/pie.jspf" />
+  A diferencia de la directiva, la acción se ejecuta en el momento de mostrar la página.
+--%>
+<footer class="pie">
+    <p>Módulo de pago de facturas - Proyecto formativo SENA - Evidencia GA7-220501096-AA2-EV02</p>
+</footer>

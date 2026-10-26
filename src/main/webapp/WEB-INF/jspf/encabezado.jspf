@@ -1,0 +1,12 @@
+<%--
+  Fragmento reutilizable: encabezado de todas las páginas.
+  Se incluye con la DIRECTIVA include:  <%@ include file="/WEB-INF/jspf/encabezado.jspf" %>
+  La directiva copia este archivo dentro de la página ANTES de compilarla.
+--%>
+<header class="encabezado">
+    <h1>ESPM - Pago de facturas</h1>
+    <nav>
+        <a href="<%= request.getContextPath() %>/index.jsp">Inicio</a>
+        <a href="<%= request.getContextPath() %>/consulta">Consultar factura</a>
+    </nav>
+</header>

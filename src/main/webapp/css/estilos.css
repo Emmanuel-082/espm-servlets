@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #f4f6f4;
+    color: #222;
+}
+
+.encabezado {
+    background: #39a900; /* verde SENA */
+    color: #fff;
+    padding: 12px 24px;
+}
+
+.encabezado h1 { margin: 0 0 6px; font-size: 1.4rem; }
+.encabezado nav a { color: #fff; margin-right: 16px; text-decoration: underline; }
+
+.contenedor {
+    max-width: 720px;
+    margin: 24px auto;
+    padding: 0 16px;
+}
+
+.formulario {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 16px;
+    margin: 16px 0;
+}
+
+.formulario label { display: block; margin: 8px 0 4px; font-weight: bold; }
+.formulario input, .formulario select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 9px 18px;
+    background: #39a900;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.tabla { width: 100%; border-collapse: collapse; background: #fff; margin: 12px 0; }
+.tabla th, .tabla td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+.tabla th { width: 40%; background: #eef3ee; }
+
+.mensaje { padding: 10px 12px; border-radius: 4px; }
+.mensaje.error { background: #fde8e8; border: 1px solid #e0a0a0; color: #8a1f1f; }
+.mensaje.ok { background: #e6f4e6; border: 1px solid #9fcf9f; color: #1f5f1f; }
+
+.nota { color: #666; font-size: 0.9rem; }
+
+.pie { text-align: center; color: #666; font-size: 0.85rem; padding: 16px; }
